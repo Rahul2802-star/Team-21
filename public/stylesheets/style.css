@@ -1,0 +1,131 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h2, h3, h4, h5, h6 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000
+}
+h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 208, 0);
+  font-size: 4ch;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar {
+  background-color: #0d1b2a; /* Dark navy blue for a strong professional look */
+  border-color: #002244; /* Slightly darker navy for borders */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff; /* White for contrast */
+}
+
+.navbar-light .navbar-brand {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff; /* White for contrast */
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff; /* White for consistency */
+  border-color: #ffffff; /* White border */
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3CsvgviewBox='0 0 30 30'xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2'stroke-linecap='round'stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff; /* White for navigation links */
+}
+
+.card {
+  background-color: #778da9; /* Light blue for card backgrounds */
+  padding: 1rem;
+  border: 1px solid #000000; /* Slightly darker light blue for borders */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+.card-primary {
+  border-color: #90caf9; /* Medium light blue for card borders */
+  margin-bottom: 0.5rem;
+}
+
+.banner {
+  margin-top: 4em;
+  border-bottom: 1px solid #90caf9; /* Matching card border color */
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.review-header {
+  background-color: #64b5f6; /* Bright blue for review headers */
+  color: #ffffff; /* White text for contrast */
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.review {
+  margin-right: -16px;
+  margin-left: -16px;
+  margin-bottom: 0.5em;
+}
+
+.badge-default, .btn-primary {
+  background-color: #1e88e5; /* Vibrant blue for badges and buttons */
+  border-color: #1565c0; /* Slightly darker blue for borders */
+}
+
+
+h4 a, h4 a:hover {
+  color: #1e88e5; /* Vibrant blue for links in h4 */
+}
+
+h4 small {
+  font-size: 60%;
+  line-height: 200%;
+  color: #64b5f6; /* Medium light blue for smaller text */
+}
+
+h1 small {
+  color: #64b5f6; /* Medium light blue for small text in h1 */
+}
+
+.address {
+  margin-bottom: 0.5rem;
+}
+
+.facilities span.badge {
+  margin-right: 2px;
+  color: #000000; /* Black text color for badge text */
+  background-color: #f5f5f5; /* Light grey background for contrast */
+  border: 1px solid #dddddd; /* Light grey border for the badge */
+}
+
+p {
+  
+  margin-bottom: 0.65rem;
+}
+
+a {
+  color: #1e88e5; /* Vibrant blue for links */
+}
+
+a:hover {
+  color: #0d47a1; /* Darker blue for link hover effect */
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #c64444; /* Dark grey text for readability */
+  background-color: #dedbd2; /* Very light blue for background */
+ background-image: url("../a-photo-of-a-hostel-with-a-blend-of-modern-and-tra-u9wMDURXSK6kKD-JZhlXBw-bfaIyosqSyaok8IpK6BByg.jpeg");
+ background-size: 1700px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
