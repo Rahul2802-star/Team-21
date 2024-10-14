@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Booking Confirmed!
+
+  .row
+    .col-12.col-md-8.offset-md-2
+      .card
+        .card-body
+          h4 Your booking has been confirmed!
+          p Here are your details:
+          p 
+            strong Name: 
+            | #{name}
+          p 
+            strong Email: 
+            | #{email}
+          p 
+            strong Contact: 
+            | #{contact}
+          p 
+            strong Check-in: 
+            | #{checkin}
+          p 
+            strong Check-out: 
+            | #{checkout}
+          p 
+            strong Guests: 
+            | #{guests}
+          p 
+            strong Hostel: 
+            | #{hostel}
+
+          // Add a button to redirect to the home page
+          a.btn.btn-primary(href='/') Go to Home Page

@@ -82,7 +82,7 @@ legend {
 
 
 h4 a, h4 a:hover {
-  color: #1e88e5; /* Vibrant blue for links in h4 */
+  color: #e5e21e; /* Vibrant blue for links in h4 */
 }
 
 h4 small {
@@ -121,11 +121,44 @@ a:hover {
 
 body {
   font-family: "Cabin", Arial, sans-serif;
-  color: #c64444; /* Dark grey text for readability */
+  color: #fcf6f6; /* Dark grey text for readability */
   background-color: #dedbd2; /* Very light blue for background */
  background-image: url("../a-photo-of-a-hostel-with-a-blend-of-modern-and-tra-u9wMDURXSK6kKD-JZhlXBw-bfaIyosqSyaok8IpK6BByg.jpeg");
  background-size: 1700px;
 background-attachment: fixed;
 background-repeat: no-repeat;
 
+}
+.book-now {
+  margin-top: 10px;
+  width: 100%; /* Full width for the button */
+  padding: 10px;
+  font-size: 16px;
+}
+/* Style for the booking form */
+.card-body {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input.form-control, select.form-control {
+  margin-bottom: 15px;
+}
+
+button.btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+p.price {
+  font-size: 1.2em;
+  color: #d4e122; /* Green color for price */
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p.price strong {
+  font-weight: bold;
 }

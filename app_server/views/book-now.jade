@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Book Your Stay
+
+  .row
+    .col-12.col-md-6.offset-md-3
+      .card
+        .card-body
+          h4 Booking Details
+
+          form(method="POST", action="/submit-booking")
+            .form-group
+              label(for="name") Name
+              input.form-control(type="text", id="name", name="name", placeholder="Enter your name", required)
+
+            .form-group
+              label(for="email") Email
+              input.form-control(type="email", id="email", name="email", placeholder="Enter your email", required)
+
+            .form-group
+              label(for="contact") Contact Number
+              input.form-control(type="text", id="contact", name="contact", placeholder="Enter your contact number", required)
+
+            .form-group
+              label(for="checkin") Check-in Date
+              input.form-control(type="date", id="checkin", name="checkin", required)
+
+            .form-group
+              label(for="checkout") Check-out Date
+              input.form-control(type="date", id="checkout", name="checkout", required)
+
+            .form-group
+              label(for="guests") Number of Guests
+              input.form-control(type="number", id="guests", name="guests", placeholder="Enter number of guests", min="1", required)
+
+            .form-group
+              label(for="hostel") Hostel
+              select.form-control(id="hostel", name="hostel")
+                option(value="bunkd-beds") Bunkd Beds
+                option(value="funky-monkey-hostel") Funky Monkey Hostel
+                option(value="prison-hostel") Prison Hostel
+
+            button.btn.btn-primary(type="submit") Confirm Booking

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .container
+    h1 Book Now
+    form(action='/book/submit', method='POST') // Adjust the action to your submission endpoint
+      .form-group
+        label(for='name') Name:
+        input#name.form-control(type='text', name='name', required=true)
+
+      .form-group
+        label(for='email') Email:
+        input#email.form-control(type='email', name='email', required=true)
+
+      .form-group
+        label(for='date') Booking Date:
+        input#date.form-control(type='date', name='date', required=true)
+
+      .form-group
+        label(for='message') Additional Information:
+        textarea#message.form-control(name='message', rows='4')
+
+      button.btn.btn-primary(type='submit') Submit Booking
+
+    // Optionally, you can add a link back to the home page
+    a.btn.btn-link(href='/') Back to Home
